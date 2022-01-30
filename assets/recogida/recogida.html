@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Satdent Recogida</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="toastr toastr-failure"></div>
+<div class="toastr toastr-success">Recogida asignada.</div>
+
+<form id="bi_request_form" runat="server">
+     
+     <div class="title">
+          <p>Solicitud de recogida</p>
+     </div>
+     
+     <div class="separator "></div>
+     
+     <div class="contents">
+          
+          <div class="step one">
+               <span class="number"><span class="number_text">1</span></span><span class="number_description">Nombre de contacto</span>
+          </div>
+          
+          <input id="primary_contact" type="text" name="primary_contact" placeholder="Nombre y apellidos"/>
+          
+          
+          <div class="step two">
+               <span class="number"><span class="number_text">2</span></span><span class="step_description">Fecha de recogida</span>
+          </div>
+          
+          <input id="date_needed" type="date" name="date_needed" placeholder="Date Needed (mm/dd/yyyy)"/>
+          
+          <div class="step three">
+               <span class="number"><span class="number_text">3</span></span><span class="number_description">Información de contacto</span>
+          </div>
+          
+          <input id="report_name" type="text" name="report_name" placeholder="Empresa"/>
+            <input id="report_address" type="text" name="report_address" placeholder="Dirección"/>
+             <input id="report_cp" type="text" name="report_cp" placeholder="CP"/>  
+             <input id="report_telefono" type="text" name="report_telefono" placeholder="Teléfono"/>
+             <input id="report_email" type="email" pattern="[^ @]*@[^ @]*" name="report_email" placeholder="Email"/>
+
+          
+
+
+          <div class="step four">
+               <span class="number"><span class="number_text">4</span></span><span class="number_description">Datos pedido</span>
+          </div>
+          
+          <input id="report_marca" type="text" name="report_marca" placeholder="Marca"/>
+          <input id="report_modelo" type="text" name="report_modelo" placeholder="Modelo"/>     
+          <input id="report_serie" type="text" name="report_serie" placeholder="Número de serie"/>    
+          <textarea id="comentarios" row="10" placeholder="Comentarios"></textarea>
+          <!-- <input type="button" value="Añadir Material" onclick="return addpiece()"/> -->
+
+
+          <a href="#" class="btn" onclick="sendData()">Submit</a>
+
+     </div>
+     
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.SPServices/2014.02/jquery.SPServices.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
