@@ -2087,13 +2087,16 @@ responsive
 
 }
 
-.wb_cookie_policy > .policy-button > button {
-  border: none;
+.wb_cookie_policy > .policy-button > .switch-cookie {
+  border: #08ccfc;
   padding: 5px 10px;
-  background-color: rgb(0, 204, 255); 
+  background-color: #7a7a7a; 
   color: rgb(255, 255, 255); 
   font-family: 'Poppins', sans-serif; 
   font-size: 14px;
+  border-radius: 23px;
+  
+  
 }
 /* * {
     box-sizing: border-box;
@@ -2128,14 +2131,10 @@ body {
     text-align: right;
 }
 */
-* {
-  box-sizing: border-box;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
+
 .switch-cookie {
     --cookie-size: 2em;
-    --outer-border: 0.2em;
+    --outer-border: 0.3em;
     --inner-border: 0.3em;
     --border-color: #08ccfc;
     --height: calc(
