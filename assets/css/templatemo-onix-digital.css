@@ -2095,7 +2095,8 @@ responsive
   font-family: 'Poppins', sans-serif; 
   font-size: 14px;
   border-radius: 23px;
-  
+  border: var(--outer-border) solid var(--border-color);
+  height: var(--height);
   
 }
 /* * {
@@ -2138,7 +2139,7 @@ body {
     --inner-border: 0.3em;
     --border-color: #08ccfc;
     --height: calc(
-        var(--cookie-size) + (2 * (var(--outer-border) + var(--inner-border)))
+        var(--cookie-size) + (2.75 * (var(--outer-border) + var(--inner-border)))
     );
     --width: calc(var(--height) * 2);
 
