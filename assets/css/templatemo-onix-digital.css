@@ -2435,3 +2435,67 @@ body {
         calc(var(--split-offset) * 1)
     );
 }
+
+
+
+/* Politica */
+
+.politica h2 {
+  text-align: center;
+  font-style: normal;
+  color: #08ccfc;
+  font-size: 30px;
+  text-transform: capitalize; 
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+  margin-bottom: -5px;
+
+}
+.politica h3 {
+
+  text-align: center;
+  font-style: normal;
+  color: #08ccfc;
+  font-size: 20px;
+  text-transform: capitalize; 
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+  margin-bottom: -5px;
+}
+
+.politica p {
+  text-align: justify;
+  margin-top: 15px;
+  padding: 10px 0px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2a2a2a;
+  margin-left: 250px;
+  margin-right: 250px;
+
+  
+}
+
+
+
+.politica .container {
+  position: relative;
+  
+}
+
+.politica {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 120px;
+}
+
+/*------------------------------------*\
+	$IPHONE 
+\*------------------------------------*/
