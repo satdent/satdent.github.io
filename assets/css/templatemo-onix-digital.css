@@ -2025,7 +2025,7 @@ responsive
 }
 
 .main-banner .owl-dots {
-  margin-top: 0px;
+  margin-top: 5px;
   counter-reset: dots;
 }
 
