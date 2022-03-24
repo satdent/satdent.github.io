@@ -2023,6 +2023,30 @@ responsive
     color: #fff;
     font-size: 20px;
 }
+
+.main-banner .owl-dots {
+  margin-top: 0px;
+  counter-reset: dots;
+}
+
+.main-banner .owl-dot:before {
+  counter-increment:dots;
+  content: counter(dots);
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #2a2a2a;
+  width: 15px;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  transition: all .5s;
+}
+
+.main-banner .active:before {
+  color: #08ccfc;
+  border-bottom: 3px solid #08ccfc;
+}
   .about-us .section-heading h2 {
     margin-right: 0px;
   }
@@ -2631,7 +2655,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #2a2a2a;
-    line-height: 72px;
+    line-height: 45px;
   }
   .main-banner .item .down-buttons .call-button {
     margin-top: 10px;
@@ -2649,6 +2673,7 @@ body {
     color: #fff;
     font-size: 20px;
 }
+
   .about-us .section-heading h2 {
     margin-right: 0px;
   }
