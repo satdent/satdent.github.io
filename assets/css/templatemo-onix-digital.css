@@ -1982,14 +1982,14 @@ responsive
     display: none;
     left: 324px;
   }
+  .about-us .left-image {
+    margin-right: 0px;
+    
+  }
   .about-us .left-image .left-image-dental {
-    margin-right: 30px;
-    border-radius: 120px 120px 120px 120px;
-    border: 3px solid #08ccfc;
-    border-top-width: thick;
-    border-right-width: 1em;
-    border-bottom-width: thick;
-    border-left-width: 1em;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
  }
   .main-banner::before {
     display: none;
@@ -2025,7 +2025,7 @@ responsive
 }
 
 .main-banner .owl-dots {
-  margin-top: 5px;
+  margin-top: 15px;
   counter-reset: dots;
 }
 
