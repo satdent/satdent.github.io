@@ -887,7 +887,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/clinica-1.png);
+  background-image: url(../images/Clinica-dental-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -895,6 +895,12 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 574px;
+  border-radius: 120px 0px 0px 120px; 
+  border: 3px solid #08ccfc;
+  border-top-width: 10px;
+  border-right-width: thin;
+  border-bottom-width: thick;
+  border-left-width: 1em;
   
 }
 
