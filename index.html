@@ -130,6 +130,7 @@ https://templatemo.com/tm-565-onix-digital
                     <div class="main-blue-button-hover">
                       <a href="#services">Nuestros Servicios</a>
                     </div>
+                    
                     <div class="call-button">
                       
                       <a href="https://api.whatsapp.com/send?phone=34663729596"><i class="fa fa-phone"></i> +34 910 734 938 / +34 663 729 596</a>
@@ -317,19 +318,25 @@ https://templatemo.com/tm-565-onix-digital
       <div class="row">
         <div class="col-lg-7">
           <div class="section-heading">
-            <h2><em>Contacta con nosotros</em></h2>
+            <h2><em id="contacto-negro">Contacta con nosotros</em></h2>
             <div id="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.8252863434163!2d-3.7490699846055286!3d40.36839817937073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4245d02cf67773%3A0x1d29f70ad40c96e0!2sSatDent!5e0!3m2!1ses!2ses!4v1642695711834!5m2!1ses!2ses" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
             </div>
             <div class="info">
               <span><i class="fa fa-whatsapp" style="text-align:center"></i> <a href="https://api.whatsapp.com/send?phone=34663729596">+34 663 729 596</a></span>
+              <span><i class="fa fa-phone" style="text-align:center"></i> <a>+34 910 734 938</a></span>
               <span><i class="fa fa-envelope"></i> <a href="mailto:info@satdent.es">info@satdent.es</a></span>
             </div>
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <form id="contact" action="mailto:chui274@gmail.com" method="post" enctype="text/plain">
+          <form id="contact" action="mailto:info@satdent.es" method="post" enctype="text/plain">
             <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="empresa" id="empresa" placeholder="Empresa" autocomplete="on" required>
+                </fieldset>
+              </div>
               <div class="col-lg-12">
                 <fieldset>
                   <input type="name" name="name" id="name" placeholder="Nombre" autocomplete="on" required>
@@ -342,7 +349,18 @@ https://templatemo.com/tm-565-onix-digital
               </div>
               <div class="col-lg-12">
                 <fieldset>
+                  <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
                   <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Correo Electrónico" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <!-- <input type="text" name="comentarios" id="comentarios" placeholder="Comentarios"> -->
+                  <textarea name="comentario" rows="5" cols="50" placeholder="Comentarios"></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -379,6 +397,7 @@ https://templatemo.com/tm-565-onix-digital
             <ul>
               <li><a href="https://www.facebook.com/Satdent-113496740194646/"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://api.whatsapp.com/send?phone=34663729596"><i class="fa fa-whatsapp"></i></a></li>
+              
             </ul>
             
           </div>

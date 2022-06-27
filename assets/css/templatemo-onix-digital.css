@@ -195,6 +195,13 @@ body {
   color: #08ccfc;
 }
 
+#contacto-negro {
+  font-style: normal; 
+  color: #2a2a2a;
+}
+
+
+
 .section-heading h2 span {
   color: #08ccfc;
   font-weight: 700;
@@ -1766,6 +1773,7 @@ contact
   border-radius: 23px;
   position: relative;
   z-index: 2;
+  padding-right: 115px;
 }
 
 .contact-us .info {
@@ -1836,6 +1844,22 @@ form#contact input {
   margin-bottom: 35px;
 }
 
+form#contact textarea {
+  width: 100%;
+  height: 46px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #9bdbf8;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 0px 0px;
+  margin-bottom: 35px;
+}
 form#contact input::placeholder {
   color: #afafaf;
 }
