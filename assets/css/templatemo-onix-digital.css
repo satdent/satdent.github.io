@@ -1809,7 +1809,8 @@ form#contact {
   margin-left: -100px;
   position: relative;
   z-index: 2;
-  background-image: url(../images/contact-form-bg.png);
+  /* background-image: url(../images/contact-form-bg.png); */
+  background-image: url(../images/image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
