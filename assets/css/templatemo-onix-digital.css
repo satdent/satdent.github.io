@@ -710,8 +710,20 @@ header letras
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
+
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    font-family: 'OCR A Std', sans-serif;
+    line-height: 100px;
+    color: #fff;
+    font-size: 28px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -2699,6 +2711,22 @@ body {
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
   }
+
+  .header-area .main-nav .logo {
+    font-family: 'OCR A Std', sans-serif;
+    line-height: 100px;
+    color: #fff;
+    font-size: 28px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
   .header-area .main-nav .menu-trigger {
     cursor: pointer;
     display: block;
