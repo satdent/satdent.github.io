@@ -466,6 +466,8 @@ header letras
   letter-spacing: 1px;
 }
 
+
+
 /* Menú cabecera palabras */
 .header-area .main-nav .nav li a {
   color: #f7f7f7;
@@ -994,7 +996,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons {
-  display: inline-flex;
+  display: grid;
 }
 
 .main-banner .item .down-buttons .call-button i {
@@ -1015,7 +1017,6 @@ Banner Style
   color: #08ccfc;
   font-size: 15px;
   font-weight: 500;
-  margin-left: 30px;
 }
 
 .main-banner .owl-dots {
@@ -1780,7 +1781,8 @@ contact
   margin-top: 30px;
   position: relative;
   z-index: 5;
-  display: inline-flex;
+  display: grid;
+  line-height: 46px;
 }
 
 .contact-us .info span {
