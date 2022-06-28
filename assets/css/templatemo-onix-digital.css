@@ -1782,13 +1782,15 @@ contact
   position: relative;
   z-index: 5;
   display: grid;
-  line-height: 46px;
+  
 }
 
 .contact-us .info span {
   opacity: 1;
   display: inline-flex;
   margin-right: 30px;
+  margin-top: 5px;
+  
 }
 
 .contact-us .info span i {
