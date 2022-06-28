@@ -693,20 +693,6 @@ header letras
   .header-area .main-nav:before {
     display: none;
   }
-  .header-area .main-nav .logo {
-    font-family: 'OCR A Std', sans-serif;
-    line-height: 100px;
-    color: #fff;
-    font-size: 28px;
-    /* font-weight: 700; */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-  }
 }
 
 @media (max-width: 992px) {
@@ -718,25 +704,9 @@ header letras
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
-  .header-area .main-nav .logo {
-    font-family: 'OCR A Std', sans-serif;
-    line-height: 100px;
-    color: #fff;
-    font-size: 28px;
-    /* font-weight: 700; */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-  }
 }
 
 @media (max-width: 767px) {
-  @import url('http://fonts.cdnfonts.com/css/ocr-a-std');
-  @import url('http://fonts.cdnfonts.com/css/century-gothic');
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -2076,8 +2046,6 @@ responsive
 }
 
 @media (max-width: 992px) {
-  @import url('http://fonts.cdnfonts.com/css/ocr-a-std');
-  @import url('http://fonts.cdnfonts.com/css/century-gothic');
 
   /* Principal satdent cabecera */
   .header-area {
@@ -2130,20 +2098,6 @@ responsive
     font-weight: 700;
     color: #2a2a2a;
     line-height: 72px;
-  }
-  .header-area .main-nav .logo {
-    font-family: 'OCR A Std', sans-serif;
-    line-height: 100px;
-    color: #fff;
-    font-size: 28px;
-    /* font-weight: 700; */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
   }
   .main-banner .item .down-buttons .call-button {
     margin-top: 10px;
@@ -2241,8 +2195,6 @@ responsive
 }
 
 @media (max-width: 767px) {
-  @import url('http://fonts.cdnfonts.com/css/ocr-a-std');
-  @import url('http://fonts.cdnfonts.com/css/century-gothic');
   .main-banner .item .down-buttons {
     display: inline-block;
   }
@@ -2744,9 +2696,6 @@ body {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
-    @import url('http://fonts.cdnfonts.com/css/ocr-a-std');
-    @import url('http://fonts.cdnfonts.com/css/century-gothic');
 
   /* Principal satdent cabecera */
   .header-area {
