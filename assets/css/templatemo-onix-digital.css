@@ -2636,7 +2636,7 @@ body {
   font-style: normal;
   color: #08ccfc;
   font-size: 30px;
-  text-transform: capitalize; 
+  /* text-transform: capitalize;  */
   font-weight: 700;
   letter-spacing: 0.25px;
   position: relative;
@@ -2651,7 +2651,7 @@ body {
   font-style: normal;
   color: #08ccfc;
   font-size: 20px;
-  text-transform: capitalize; 
+  /* text-transform: capitalize;  */
   font-weight: 700;
   letter-spacing: 0.25px;
   position: relative;
