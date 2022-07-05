@@ -821,12 +821,26 @@ header letras
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  /* Google Maps Iframe */
+  .contact-us #map iframe {
+    border-radius: 23px;
+    position: relative;
+    z-index: 2;
+    /* padding-right: 115px; */
+  }
 }
 
 @media (min-width: 767px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
+    /* Google Maps Iframe */
+    .contact-us #map iframe {
+      border-radius: 23px;
+      position: relative;
+      z-index: 2;
+      /* padding-right: 115px; */
+    }
 }
 
 /* 
@@ -2192,6 +2206,14 @@ responsive
   .subscribe-newsletters {
     margin-bottom: 0px;
   }
+
+  /* Google Maps iframe */
+  .contact-us #map iframe {
+    border-radius: 23px;
+    position: relative;
+    z-index: 2;
+    padding-right: 115px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2231,6 +2253,13 @@ responsive
   }
   .contact-us .info span {
     margin-bottom: 20px;
+  }
+  /* Google Maps Iframe */
+  .contact-us #map iframe {
+    border-radius: 23px;
+    position: relative;
+    z-index: 2;
+    /* padding-right: 115px; */
   }
 }
 
@@ -2834,6 +2863,13 @@ body {
   }
   .subscribe-newsletters {
     margin-bottom: 0px;
+  }
+  /* Google Maps Iframe */
+  .contact-us #map iframe {
+    border-radius: 23px;
+    position: relative;
+    z-index: 2;
+    /* padding-right: 115px; */
   }
 }
 
