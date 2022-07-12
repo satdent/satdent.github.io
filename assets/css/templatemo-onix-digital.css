@@ -3640,7 +3640,7 @@ padding-top: 120px;
     border-radius: 23px;
     position: relative;
     z-index: 2;
-    /* padding-right: 115px; */
+    padding-right: 0px; 
   }
 
 
