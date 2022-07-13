@@ -236,7 +236,7 @@ body {
 }
 
 .section-heading h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: capitalize;
   color: #2a2a2a;
   font-weight: 700;
@@ -255,7 +255,7 @@ body {
 #contacto-negro {
   font-style: normal; 
   color: #2a2a2a;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -265,11 +265,11 @@ body {
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .section-heading span {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 700;
   color: #08ccfc;
@@ -776,7 +776,7 @@ header letras
   text-align: center;
   font-style: normal;
   color: #08ccfc;
-  font-size: 30px;
+  font-size: 25px;
   /* text-transform: capitalize;  */
   font-weight: 700;
   letter-spacing: 0.25px;
@@ -957,7 +957,7 @@ header letras
   text-align: center;
   font-style: normal;
   color: #08ccfc;
-  font-size: 30px;
+  font-size: 25px;
   /* text-transform: capitalize;  */
   font-weight: 700;
   letter-spacing: 0.25px;
@@ -1182,7 +1182,7 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
@@ -1287,7 +1287,7 @@ Services Style
 .our-services .section-heading {
   text-align: center;
   margin-bottom: 45px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .our-services .section-heading h2 {
@@ -1391,7 +1391,7 @@ About
 }
 .about-us .section-heading h2 {
   margin-right: 60px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .about-us .section-heading p {
@@ -2318,7 +2318,7 @@ responsive
   }
 
   .main-banner .item h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #2a2a2a;
     line-height: 72px;
@@ -3110,7 +3110,7 @@ responsive
   }
 
   .main-banner .item h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #2a2a2a;
     line-height: 45px;
@@ -3343,7 +3343,7 @@ responsive
 }
 
 .main-banner .item h2{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: #2a2a2a;
   line-height: 45px;
@@ -3566,7 +3566,7 @@ padding-top: 120px;
   }
 
   .main-banner .item h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #2a2a2a;
     line-height: 45px;
