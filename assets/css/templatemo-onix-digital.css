@@ -402,7 +402,7 @@ header letras
   font-family: 'OCR A Std', sans-serif;
   line-height: 100px;
   color: #fff;
-  font-size: 28px;
+  font-size: 40px;
   /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -836,7 +836,7 @@ header letras
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 28px;
+    font-size: 40px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1180,7 +1180,7 @@ Banner Style
 }
 
 .main-banner .item h2 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
@@ -1345,6 +1345,20 @@ Services Style
   opacity: 1;
   width: 10px;
   height: 10px;
+}
+
+/*
+--------------------------------------------- 
+Partners 
+---------------------------------------------
+*/
+
+
+#dreve {
+ 
+  width: 100px;
+  height: 100px;
+    
 }
 
 
@@ -3048,7 +3062,7 @@ responsive
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 28px;
+    font-size: 40px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -3281,7 +3295,7 @@ responsive
   font-family: 'OCR A Std', sans-serif;
   line-height: 100px;
   color: #fff;
-  font-size: 28px;
+  font-size: 40px;
   /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -3504,7 +3518,7 @@ padding-top: 120px;
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 28px;
+    font-size: 40px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
