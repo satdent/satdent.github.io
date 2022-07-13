@@ -255,6 +255,7 @@ body {
 #contacto-negro {
   font-style: normal; 
   color: #2a2a2a;
+  font-size: 30px;
 }
 
 
@@ -264,6 +265,7 @@ body {
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
+  font-size: 30px;
 }
 
 .section-heading span {
@@ -402,7 +404,7 @@ header letras
   font-family: 'OCR A Std', sans-serif;
   line-height: 100px;
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -422,7 +424,7 @@ header letras
   font-family: 'OCR A Std', sans-serif;
   line-height: 100px;
   color: #fff;
-  font-size: 28px;
+  font-size: 50px;
   /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -836,7 +838,7 @@ header letras
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1285,6 +1287,7 @@ Services Style
 .our-services .section-heading {
   text-align: center;
   margin-bottom: 45px;
+  font-size: 30px;
 }
 
 .our-services .section-heading h2 {
@@ -1388,6 +1391,7 @@ About
 }
 .about-us .section-heading h2 {
   margin-right: 60px;
+  font-size: 30px;
 }
 
 .about-us .section-heading p {
@@ -3062,7 +3066,7 @@ responsive
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -3295,7 +3299,7 @@ responsive
   font-family: 'OCR A Std', sans-serif;
   line-height: 100px;
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -3518,7 +3522,7 @@ padding-top: 120px;
     font-family: 'OCR A Std', sans-serif;
     line-height: 100px;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     /* font-weight: 700; */
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -3586,6 +3590,7 @@ padding-top: 120px;
 
   .about-us .section-heading h2 {
     margin-right: 0px;
+    text-align: center;
   }
   .fact-item {
     text-align: center;
