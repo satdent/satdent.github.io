@@ -34,7 +34,7 @@ function getCookie(cname) {
 // Set cookie consent
 function acceptCookieConsent(){
 	deleteCookie('user_cookie_consent');
-	setCookie('user_cookie_consent', 1, 30);
+	setCookie('user_cookie_consent', 1, 0.02);
 	
 	document.getElementById("cookieNotice").style.display = "none";	
 }
