@@ -1365,6 +1365,17 @@ Partners
 }
 
 
+.grid-partners-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+.grid-partners-item { 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 /* 
 ---------------------------------------------
 About
