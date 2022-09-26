@@ -321,6 +321,19 @@ Partners
 
   }
 
+  .politica ul ,li {
+    text-align: center;
+    /* margin-top: 15px;
+  padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    /* margin-left: 250px;
+  margin-right: 250px; */
+
+
+  }
 
 
   .politica .container {
@@ -953,11 +966,20 @@ Partners
     color: #2a2a2a;
     /* margin-left: 250px;
   margin-right: 250px; */
-
-
   }
 
+  .politica ul, li {
+    text-align: center;
+    /* margin-top: 15px;
+  padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    /* margin-left: 250px;
+  margin-right: 250px; */
 
+  }
 
 
 
@@ -1192,7 +1214,19 @@ Partners
 
 
   }
+  .politica ul ,li {
+    text-align: center;
+    /* margin-top: 15px;
+  padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    /* margin-left: 250px;
+  margin-right: 250px; */
 
+
+  }
 
 
   .politica .container {
@@ -2744,7 +2778,19 @@ Partners
 
 
   }
+  .reglamento ul,li {
+    text-align: center;
+    /* margin-top: 15px;
+  padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    /* margin-left: 250px;
+  margin-right: 250px; */
 
+
+  }
 
 
   .politica .container {
@@ -2897,7 +2943,19 @@ Partners
 
   }
 
+  .reglamento ul,li {
+    text-align: center;
+    /* margin-top: 15px;
+  padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    /* margin-left: 250px;
+  margin-right: 250px; */
 
+
+  }
 
   .politica .container {
     position: relative;
@@ -3586,7 +3644,21 @@ Partners
 
   }
 
+  .reglamento ul,li {
+    text-align: center;
+    /* margin-top: 15px; */
+    /* padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
 
+
+    /* margin-left: 250px;
+  margin-right: 250px; */
+
+
+  }
 
   .politica .container {
     position: relative;
@@ -3858,7 +3930,20 @@ Partners
 
   }
 
+  .reglamento ul,li {
+    text-align: justify;
+    /* margin-top: 15px; */
+    /* padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
 
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+  }
 
   .politica .container {
     position: relative;
@@ -4132,7 +4217,19 @@ Partners
 
 
   }
+  .reglamento ul,li {
+    text-align: justify;
+    /* margin-top: 15px; */
+    /* padding: 10px 0px; */
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    margin-left: 20px;
+    margin-right: 20px;
 
+
+  }
 
 
   .politica .container {
