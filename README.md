@@ -1,5 +1,4 @@
-<p align="center"><img src="assets/images/logo.png" width="180px" /></p>
-
+<span style="color:#08ccfc; font-family: 'OCR A Std', sans-serif;" >Sat</span><span style="color:#000000; font-family: 'OCR A Std', sans-serif;">Dent</span>
 
 # SatDent
 
