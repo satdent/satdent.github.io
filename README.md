@@ -1,6 +1,7 @@
-# satdent.es
+<p align="center"><img src="assets/images/logo.png" width="180px" /></p>
 
 
-# todo
+# SatDent
 
-* Cookies: arreglar icono
+**SatDent** es un grupo de emprendedores que se encargan de reparar la maquinaria tanto de clínicas dentales como laboratorios protésicos."
+
