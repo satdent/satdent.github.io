@@ -142,8 +142,13 @@ Laboratorios dentales, instalación clínicas dentales, reparaciones dentales">
   <script>
     // Función para borrar la cookie al refrescar
     function deleteCookieOnRefresh() {
-      deleteCookie('user_cookie_consent');
-    }
+      var cookies = document.cookie.split(";");
+      for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      }    }
 
     // Llama a la función para borrar la cookie al cargar la página
     deleteCookieOnRefresh();
