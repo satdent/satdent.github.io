@@ -4248,10 +4248,10 @@ Partners
 
 /* IPHONE */
 
-/* ----------- iPhone SE ----------- */
+/* ----------- iPhone PRO ----------- */
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 390px) and (max-device-width: 884px) and (-webkit-min-device-pixel-ratio: 3) {
 
   .main-banner .item p {
     margin: 20px 0px;
@@ -4274,7 +4274,7 @@ Partners
 
 
   .grid-partners-container {
-    display: grid;
+    display: block;
     grid-template-columns: auto auto;
     padding: 10px;
   }
