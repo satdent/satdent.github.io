@@ -30,7 +30,7 @@ body {
 
 .description {
   margin-top: 1rem;
-  font-size: 0.875rem;
+  font-size: -1.125rem;
   line-height: 1.25rem;
   color: rgb(75 85 99);
 }
@@ -124,3 +124,6 @@ body {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+
+

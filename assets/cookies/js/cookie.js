@@ -53,8 +53,6 @@ function acceptCookieConsent(){
 let cookie_consent = getCookie("user_cookie_consent");
 if(cookie_consent != ""){
 	document.getElementById("cookieNotice").style.display = "block";
-	document.getElementById("acceptNoti").style.display = "block";
 }else{
 	document.getElementById("cookieNotice").style.display = "block";
-	document.getElementById("acceptNoti").style.display = "none";
 }
