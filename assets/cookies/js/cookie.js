@@ -1,3 +1,10 @@
+// Función para establecer el declinado
+function declineCookie() {
+	  // Realiza la redirección o la acción deseada aquí
+	  alert("Debes aceptar las cookies para poder continuar");
+}
+
+
 // Create cookie
 function setCookie(cname, cvalue, exdays) {
 	const d = new Date();
@@ -36,7 +43,8 @@ function acceptCookieConsent(){
 	deleteCookie('user_cookie_consent');
 	setCookie('user_cookie_consent', 1, 0.02);
 	
-	document.getElementById("cookieNotice").style.display = "none";	
+	document.getElementById("cookieNotice").style.display = "block";	
+	window.location.href = "satdent.html"; // Cambia "pagina_de_destino.html" por la URL de la página a la que deseas redirigir.
 }
 
 
@@ -44,9 +52,7 @@ function acceptCookieConsent(){
 // Set visibility of the cookie consent popup
 let cookie_consent = getCookie("user_cookie_consent");
 if(cookie_consent != ""){
-	document.getElementById("cookieNotice").style.display = "none";
-	document.getElementById("acceptNoti").style.display = "block";
+	document.getElementById("cookieNotice").style.display = "block";
 }else{
 	document.getElementById("cookieNotice").style.display = "block";
-	document.getElementById("acceptNoti").style.display = "none";
 }
