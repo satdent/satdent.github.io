@@ -78,6 +78,7 @@
                 height: 400px;
             }
         }
+
         /* Adaptación para iiPhone SE*/
         @media (max-width: 375px) and (max-height: 932px) {
             h1 {
@@ -91,8 +92,11 @@
             video {
                 height: 400px;
             }
-        }     
+        }
 
+        .no-underline {
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -104,7 +108,9 @@
         Tu navegador no soporta videos incrustados. Por favor, descarga el video
         <a href="christmas.mp4">aquí</a>.
     </video>
-    <h2><span style="color:#08ccfc">SAT</span><span style="color:#FFFFFF">DENT</span></h2>
+    <a href="index.html" class="no-underline">
+        <h2><span style="color:#08ccfc">SAT</span><span style="color:#FFFFFF">DENT</span></h2>
+    </a>
 </body>
 
 </html>
