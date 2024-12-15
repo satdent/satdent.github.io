@@ -1,2 +1,0 @@
-# Redirige a /christmas si alguien intenta acceder a /christmas/index.html o /christmas.html
-RedirectMatch 301 ^/christmas(/index.html|.html)?$ /christmas
